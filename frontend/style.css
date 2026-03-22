@@ -1,0 +1,10 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; display: flex; justify-content: center; }
+.container { width: 90%; max-width: 600px; margin-top: 50px; }
+form { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+input, textarea { width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; box-sizing: border-box; }
+textarea { height: 100px; }
+button { padding: 10px 20px; cursor: pointer; border: none; border-radius: 4px; background: #007bff; color: white; }
+.hidden { display: none; }
+.blog-card { background: white; padding: 15px; margin-bottom: 15px; border-left: 5px solid #007bff; border-radius: 4px; position: relative; }
+.btn-edit { background: #ffc107; color: black; margin-right: 5px; }
+.btn-delete { background: #dc3545; }
