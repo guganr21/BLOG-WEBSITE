@@ -1,4 +1,4 @@
-const API_URL = 'https://blog-website-4wt9.vercel.app/';
+const API_URL = 'https://blog-website-4wt9.vercel.app/blogs';
 const blogForm = document.getElementById('blogForm');
 const blogList = document.getElementById('blogList');
 const loading = document.getElementById('loading');
