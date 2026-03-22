@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vanilla Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dev Blog Explorer</h1>
+        
+        <form id="blogForm">
+            <input type="hidden" id="blogId">
+            <input type="text" id="title" placeholder="Blog Title" required>
+            <input type="text" id="author" placeholder="Author Name" required>
+            <textarea id="content" placeholder="Write your content..." required></textarea>
+            <button type="submit" id="submitBtn">Publish Blog</button>
+            <button type="button" id="cancelBtn" class="hidden">Cancel Edit</button>
+        </form>
+
+        <div id="loading" class="hidden">Loading blogs...</div>
+        <div id="blogList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
